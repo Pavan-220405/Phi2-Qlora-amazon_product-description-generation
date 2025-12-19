@@ -1,5 +1,5 @@
 ### Download and open the ipynb file locally, or else open the PDF
-# Fine-Tuning Phi-2 using QLoRA for Amazon Product Description,Name Generation 
+# Instruction Fine-Tuning Phi-2 using QLoRA for Amazon Product Description,Name Generation 
 
 This repository demonstrates how to fine-tune the Phi-2 language model on custom Amazon product data using QLoRA (Quantized Low-Rank Adaptation). The goal is to efficiently adapt a large language model to generate product names and descriptions while minimizing GPU memory usage.
 
@@ -7,7 +7,7 @@ This repository demonstrates how to fine-tune the Phi-2 language model on custom
 
 ## Project Overview
 
-Product title and description generation is a practical text generation task in e-commerce. In this project, the Phi-2 model is fine-tuned on structured product data using QLoRA, enabling efficient training by combining low-bit quantization with LoRA adapters. The notebook focuses on building a scalable and memory-efficient fine-tuning pipeline rather than full model retraining.
+Product title and description generation is a practical text generation task in e-commerce. In this project, the Phi-2 model is instruction fine-tuned on structured product data using QLoRA, enabling efficient training by combining low-bit quantization with LoRA adapters. The notebook focuses on building a scalable and memory-efficient fine-tuning pipeline rather than full model retraining.
 
 ---
 
